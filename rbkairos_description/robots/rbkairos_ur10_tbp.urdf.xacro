@@ -153,7 +153,7 @@
 
 		<!-- Atlas Copco TBP -->
 		<xacro:tbp_gripper prefix="$(arg prefix)tbp_gripper" parent="$(arg prefix)arm_tool0">
-			<origin xyz="0.0 0.0 0.0" rpy="0 -${pi/2} 0"/>
+			<origin xyz="0.0 0.0 -0.003" rpy="0 0 -${pi/2}"/>
 		</xacro:tbp_gripper>
 
     </xacro:macro>
