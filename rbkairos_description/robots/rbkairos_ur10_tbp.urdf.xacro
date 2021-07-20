@@ -102,7 +102,7 @@
 
         <!-- UR-10 ARM -->
 		<xacro:if value="$(arg load_kinematics_file)">
-            <xacro:ur10_robot prefix="$(arg prefix)arm_"
+            <xacro:ur10_robot prefix="$(arg prefix)arm_" joint_limited="false"
             kinematics_file="${load_yaml('$(find kairos_calibration)/config/$(arg prefix)ur10_calibration.yaml')}">
             </xacro:ur10_robot>
         
