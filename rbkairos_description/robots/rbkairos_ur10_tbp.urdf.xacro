@@ -11,7 +11,7 @@
   	<xacro:include filename="$(find summit_xl_description)/urdf/bases/summit_xls_base.urdf.xacro" />
 
     <!-- Include UR-10 ARM -->
-	<xacro:include filename="$(find ur_description)/urdf/inc/ur10_macro.xacro" />
+	<xacro:include filename="$(find ur_description)/urdf/ur10.urdf.xacro" />
 
 	<!-- Include tbp  -->
 	<xacro:include filename="$(find tbp_gripper_support)/urdf/tbp_gripper.urdf.xacro" />
