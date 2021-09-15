@@ -14,7 +14,7 @@
 	<xacro:include filename="$(find ur_description)/urdf/ur10.urdf.xacro" />
 
 	<!-- Include iGPS_redcrown2usb Tool  -->
-	<xacro:include filename="$(find ma_velasco)/igps_redcrown2usb_description/urdf/igps_redcrown2usb.urdf.xacro" /> 
+	<xacro:include filename="$(find mars_hardware_description)/igps_redcrown2usb_support/urdf/igps_redcrown2usb.urdf.xacro" /> 
 
 	  <!-- Import summit XL wheels -->
   	<xacro:include filename="$(find summit_xl_description)/urdf/wheels/omni_wheel.urdf.xacro" />
