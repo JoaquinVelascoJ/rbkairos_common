@@ -150,11 +150,11 @@
   			<origin xyz="${front_rgbd_camera_offset_x} ${front_rgbd_camera_offset_y} ${front_rgbd_camera_offset_z}" rpy="0 0 0"/>
   		</xacro:sensor_zed-->
 
-		<!--
+		
         <xacro:igps_redcrown2usb prefix="$(arg prefix)igps_redcrown2usb" parent="$(arg prefix)arm_wrist_3_link">
-			<origin xyz="-0.15 0 0.04" rpy="0 -${pi/2} 0"/>
+			<origin xyz="-0.210978 0 0.045" rpy="0 -${pi/2} 0"/>
 		</xacro:igps_redcrown2usb>
-		-->
+		
 	
 	
 	</xacro:macro>
